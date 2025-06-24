@@ -10,7 +10,7 @@ class LoginPageLocators:
     SIGNIN_BUTTON = (By.XPATH, '//*[@data-l="t,sign_in"]')
     QR_SIGNIN_BUTTON = (By.XPATH, '//*[@data-l="t,get_qr"]')
     RESTORE_PASSWORD_BUTTON = (By.XPATH, '//*[@data-l="t,restore"]')
-    REGISTER_BY_PHONE_BUTTON = (By.XPATH, '//a[@class="button-pro __sec mb-3x __wide"]')
+    REGISTER_BY_PHONE_BUTTON = (By.XPATH, '//div[@class="external-oauth-login-footer"]/a[@data-l="t,register"]')
     VK_REGISTER_BUTTON = (By.XPATH, '//*[@data-l="t,vkc"]')
     MAILRU_REGISTER_BUTTON = (By.XPATH, '//*[@data-l="t,mailru"]')
     YANDEX_REGISTER_BUTTON = (By.XPATH, '//*[@data-l="t,yandex"]')
