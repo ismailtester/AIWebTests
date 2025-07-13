@@ -1,5 +1,5 @@
 import allure
-from pages.BasePage import BasePage
+from pages.BasePage import BasePageHelper
 from selenium.webdriver.common.by import By
 from random import randint
 
@@ -13,7 +13,7 @@ class RegistrationPageLocators:
     SUPPORT_BUTTON = (By.XPATH, '//*[@data-l="t,support"]')
 
 
-class RegistrationPageHeler(BasePage):
+class RegistrationPageHelperHeler(BasePageHelper):
     def __init__(self, driver):
         self.driver = driver
         self.check_page()
